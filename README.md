@@ -8,29 +8,9 @@ PTT 為台灣的大型論壇之一，每天都有數千篇文章在上面發表�
 python 3.8.5<br>
 Elasticsearch 7.11.2<br>
 Java 8u321
-
-## Set up environment
-### Install Elasticsearch
-1. Download [Elasticsearch](https://www.elastic.co/downloads/past-releases/elasticsearch-7-11-2)
-2. Download Java
-   * Download [Java jdk](https://www.oracle.com/java/technologies/downloads/#java8-windows)
-   * [Set up Java environment variables](https://www.kjnotes.com/devtools/35)
-3. Decompress and running Elasticsearch 
-   * Decompress the downloaded Elasticsearch compressfile in step 1.
-   * open cmd and change directory to Elasticsearch decompressed folder.
-   * Running `bin\elasticsearch.bat`
-
-    ```bash 
-    > cd Downloads\elasticsearch-7.11.2
-    > bin\elasticsearch.bat
-    ```
-### Install elasticsearch python package
-```bash
-> pip install elasticsearch==7.11.0
-```
     
 ## Usage
-1. change directory to Elasticsearch folder and running `bin\elasticsearch.bat`
+1. Change directory to Elasticsearch folder and running `bin\elasticsearch.bat`
     ```bash 
     > cd Downloads\elasticsearch-7.11.2
     > bin\elasticsearch.bat
